@@ -4,8 +4,8 @@
   "description": "A memory game where players match pairs of cards.",
   "main": "src/js/app.js",
   "scripts": {
-    "start": "node api.js && live-server",
-    "build": "node api.js && webpack --mode production",
+    "start": "live-server",
+    "build": "webpack --mode production",
     "test": "jest"
   },
   "keywords": [
